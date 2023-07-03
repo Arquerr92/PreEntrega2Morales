@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body {
+    height: 100vh;
+    background-image: url(https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-repeat: repeat;
+
+ }
+ 
+ header {
+    height: 15vh;
+    
+ }
+ header a.nav-link {
+  color: white; 
+  text-decoration: none !important; 
+}
+.nav-link {
+  text-decoration: none !important;
+}
+
+header a.logo-link {
+  text-decoration: none !important; 
+}
+
+header span {
+  color: white;
+  text-decoration: none !important; 
+}
+ .logoprincipal {
+  width: 25%; 
+  height: auto; 
+}
+  main {
+    height: 75vh;
+  }
+  
+  .acerca-de-mi {
+    height: 160vh;
+    
+  }
+  .terapias {
+    height: 500vh;
+  }
+  .main-contacto {
+    height: 100vh;
+  }
+
+  aside img {
+    bottom: 500px;
+  }
+  
+  footer {
+    height: 10vh;
+  }
