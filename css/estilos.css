@@ -19,18 +19,36 @@
   color: white; 
   text-decoration: none !important; 
 }
-.nav-link {
-  text-decoration: none !important;
+ header nav button.btn-primary {
+  color: white !important;
 }
 
-header a.logo-link {
-  text-decoration: none !important; 
+ button.navbar-toggler span.navbar-toggler-icon {
+  color: white !important;
 }
 
-header span {
+
+ header span {
   color: white;
   text-decoration: none !important; 
 }
+.nav-link {
+  text-decoration: none !important;
+}
+.nav-link:hover {
+  background-color: none !important;
+}
+.navbar-nav .nav-item .nav-link.active {
+  color: #000000 !important;
+}
+.navbar-nav .nav-item .nav-link {
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 0.9rem;
+}
+a.nav-link.active {
+  color: #000000;
+ }
  .logoprincipal {
   width: 25%; 
   height: auto; 
@@ -47,9 +65,17 @@ header span {
     height: 500vh;
   }
   .main-contacto {
-    height: 100vh;
+    height: 70vh;
   }
-
+ .testimonios{
+   height: 100vh;
+}
+ .cursos {
+  height: 100vh;
+}
+ .tienda {
+  height: 100vh;
+}
   aside img {
     bottom: 500px;
   }

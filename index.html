@@ -14,19 +14,19 @@
 </head>
 
 <body class="d-flex flex-column h-100">
-   <!-- NAVEGADOR -->
+   <!-- logo -->
    <header class="container-fluid">
-      <div class="row h-100 align-items-center">
+      <nav class="navbar" data-bs-theme="dark">
          <div class="col-4">
             <a href="./index.html" class="d-flex align-items-center text-decoration-none">
                <img class="logoprincipal" src="./assets/img/Sanacion cuerpo y alma LOGO SOLO.png"
                   alt="logo principal sanacion cuerpo y alma">
                <span class="ms-2 ">Sanacion Cuerpo y Alma</span>
             </a>
-
          </div>
-         <nav class="col-8 ">
-            <ul class="nav justify-content-end h-100 ">
+         <!-- NAVEGADOR -->
+         <div class="col-7">
+            <ul class="nav justify-content-end h-100 d-none d-lg-flex">
                <li class="nav-item">
                   <a class="nav-link" href="./index.html">INICIO</a>
                </li>
@@ -42,28 +42,75 @@
                <li class="nav-item">
                   <a class="nav-link" href="./pages/contacto.html">CONTACTO</a>
                </li>
-               <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                     aria-expanded="false">
-                     MAS
-                  </a>
-                  <ul class="dropdown-menu">
-                     <li><a class="dropdown-item" href="#">Cursos</a></li>
-                     <li><a class="dropdown-item" href="#">Tienda</a></li>
-                  </ul>
-         </nav>
-      </div>
-   </header>
+            </ul>
+         </div>
+         <!-- NAVEGADOR  HAMBURGUESA-->
+         <div class=" col-1">
 
+            <button class="navbar-toggler btn-primary" type="button" data-bs-toggle="offcanvas"
+               data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon">
+               </span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-light p-3" tabindex="-1" id="offcanvasDarkNavbar"
+               aria-labelledby="offcanvasDarkNavbarLabel">
+               <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Sanacion Cuerpo y Alma</h5>
+                  <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas"
+                     aria-label="Close"></button>
+               </div>
+               <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                     <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">INICIO</a>
+                     </li>
+
+                     <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./pages/acerca de mi.html">ACERCA DE MI</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./pages/terapias.html">TERAPIAS</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./pages/Testimonios.html">TESTIMONIOS</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./pages/contacto.html">CONTACTO</a>
+                     </li>
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                           aria-expanded="false">
+                           MAS
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                           <li><a class="dropdown-item" href="./pages/Cursos.html">CURSOS</a></li>
+                           <li>
+                              <hr class="dropdown-divider">
+                           </li>
+                           <li><a class="dropdown-item" href="./pages/Tienda.html">TIENDA</a></li>
+
+
+                        </ul>
+                     </li>
+                  </ul>
+                  <form class="d-flex mt-3" role="search">
+                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                     <button class="btn text-bg-dark p-3" type="submit">Busqueda</button>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </nav>
+   </header>
    <!-- MAIN INDEX -->
    <main class="container-fluid">
       <div class="row h-100 align-items-center justify-content-center">
          <aside>
-            <div >    
-               <a href="https://wa.me/+5493513229586" target="_blank" >
+            <div>
+               <a href="https://wa.me/+5493513229586" target="_blank">
                   <i class="fab fa-whatsapp fa-3x position-fixed bottom-0 end-0 m-3 text-white"></i></a>
-            </a>
-         </div>
+               </a>
+            </div>
          </aside>
          <section class="col-md-8 col-lg-6 d-flex flex-column justify-content-center align-items-center">
             <div>
@@ -75,7 +122,7 @@
                   Consiste en brindar asistencia en todos los niveles.
                </p>
                <div class="row justify-content-center">
-                  <div class="col-md-8 col-lg-6 d-flex justify-content-center align-items-center">
+                  <div class="d-xs-block col-md-8 col-lg-6 d-lg-flex justify-content-center align-items-center">
                      <img
                         src="https://images.pexels.com/photos/7176316/pexels-photo-7176316.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                         alt="imagen de personas terapias index" class="img-fluid img-half" width="100%">
