@@ -1,0 +1,26 @@
+header {
+    nav {
+            span.ms-2{
+                font-family: $texto-logo;
+                font-size: 30px;
+            }
+            
+        
+    }
+
+}
+
+h1 {
+    font-family: $texto-h1;
+}
+h2 {
+    font-family: $texto-h2;
+}
+p {
+    font-size: 1.05rem; 
+}
+ol{
+    li {
+        font-size: 1.05rem;
+    }
+}

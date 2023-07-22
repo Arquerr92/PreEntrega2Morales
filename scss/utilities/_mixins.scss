@@ -1,0 +1,18 @@
+
+@mixin flecha_subiralacabezera {
+    width: 100%;
+    height: 20vh;
+    background: no-repeat;
+    background-position: cover;
+}
+
+@mixin tamaño_icono_menu_hamburguesa{ 
+    display: inline-block;
+    width: 2.5em;
+    height: 2.8em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
