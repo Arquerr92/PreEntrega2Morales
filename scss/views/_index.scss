@@ -1,5 +1,4 @@
 .index-sanacion {
-    height: 170vh;
+    min-height: calc(100vh - (height_of_header + height_of_footer));
     background-color: $color-light;
-    
 }

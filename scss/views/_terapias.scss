@@ -1,5 +1,5 @@
 .terapias {
-    height: 705vh;
-    background-color: $color-dark;
     
+    background-color: $color-dark;
+    min-height: calc(100vh - (height_of_header + height_of_footer));
   }

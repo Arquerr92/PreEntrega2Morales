@@ -1,7 +1,7 @@
 .acerca-de-mi {
-    height: 220vh;
-    background-color: $color-dark;
     
+    background-color: $color-dark;
+    min-height: calc(100vh - (height_of_header + height_of_footer));
   }
   .flecha-arriba{
     @include flecha_subiralacabezera;
@@ -11,8 +11,8 @@
     width: 50px;
     height: 50px;
     background: #252525;
-    bottom: 220px;
-    right: 50px;
+    bottom: 100px;
+    left: 10px;
     text-decoration: none;
     text-align: center;
     line-height: 50px;
