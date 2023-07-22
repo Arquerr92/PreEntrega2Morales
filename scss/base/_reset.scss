@@ -29,7 +29,7 @@ p {
 i {
   font-size: 25px;
 }
- 
+
 .botones-redes-flotantes {
   bottom: 0px !important;
   left: 1820px !important;
@@ -67,7 +67,26 @@ i {
 @media (max-width: 400px) {
   .botones-redes-flotantes {
     bottom: 0px !important;
-    left: 300px !important;
+    left:  350px !important;
+  }
+}
+@media (max-width: 400px) {
+  .botones-redes-flotantes {
+    bottom: 0px !important;
+    left:  350px !important;
+  }
+}
+@media (max-width: 412px) {
+  .botones-redes-flotantes {
+    bottom: 0px !important;
+    left:  350px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .flecha-arriba {
+    bottom: 0px;
+    left:  50px ;
   }
 }
 @media (max-width: 767){

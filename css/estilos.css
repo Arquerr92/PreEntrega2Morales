@@ -1,9 +1,9 @@
 @media only screen and (max-width: 767px) {
   body p {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
   }
   body ol li {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
   }
 }
 
@@ -78,7 +78,25 @@ i {
 @media (max-width: 400px) {
   .botones-redes-flotantes {
     bottom: 0px !important;
-    left: 300px !important;
+    left: 350px !important;
+  }
+}
+@media (max-width: 400px) {
+  .botones-redes-flotantes {
+    bottom: 0px !important;
+    left: 350px !important;
+  }
+}
+@media (max-width: 412px) {
+  .botones-redes-flotantes {
+    bottom: 0px !important;
+    left: 350px !important;
+  }
+}
+@media (max-width: 400px) {
+  .flecha-arriba {
+    bottom: 0px;
+    left: 50px;
   }
 }
 @media (max-width: 767) {
@@ -194,7 +212,7 @@ ol li {
 }
 
 header {
-  height: 15vh;
+  height: 20vh;
   background-color: black;
 }
 
@@ -291,13 +309,13 @@ footer {
 }
 
 .index-sanacion {
-  height: 170vh;
+  min-height: calc(100vh - (height_of_header + height_of_footer));
   background-color: White;
 }
 
 .acerca-de-mi {
-  height: 220vh;
   background-color: black;
+  min-height: calc(100vh - (height_of_header + height_of_footer));
 }
 
 .flecha-arriba {
@@ -312,8 +330,8 @@ footer {
   width: 50px;
   height: 50px;
   background: #252525;
-  bottom: 220px;
-  right: 50px;
+  bottom: 100px;
+  left: 10px;
   text-decoration: none;
   text-align: center;
   line-height: 50px;
@@ -322,16 +340,16 @@ footer {
 }
 
 .terapias {
-  height: 705vh;
   background-color: black;
+  min-height: calc(100vh - (height_of_header + height_of_footer));
 }
 
 .testimonios {
-  height: 70vh;
+  min-height: calc(100vh - (height_of_header + height_of_footer));
 }
 
 .main-contacto {
-  height: 70vh;
+  min-height: calc(100vh - (height_of_header + height_of_footer));
 }
 
 .form-area {
@@ -430,11 +448,11 @@ footer {
   }
 }
 .cursos {
-  height: 100vh;
+  min-height: calc(100vh - (height_of_header + height_of_footer));
 }
 
 .tienda {
-  height: 100vh;
+  min-height: calc(100vh - (height_of_header + height_of_footer));
 }
 
 /*# sourceMappingURL=estilos.css.map */
