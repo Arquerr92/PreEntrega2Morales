@@ -18,7 +18,7 @@ html {
 }
 
 body {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 a, a:hover {
@@ -286,19 +286,17 @@ header nav ul.menu-hamburguesa:hover {
 }
 
 footer {
-  height: 15vh;
   text-align: center;
   background-color: White;
 }
 
 .index-sanacion {
-  height: 180vh;
+  height: 170vh;
   background-color: White;
-  position: relative;
 }
 
 .acerca-de-mi {
-  height: 196vh;
+  height: 220vh;
   background-color: black;
 }
 
@@ -324,7 +322,7 @@ footer {
 }
 
 .terapias {
-  height: 710vh;
+  height: 705vh;
   background-color: black;
 }
 
