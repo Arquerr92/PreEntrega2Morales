@@ -1,90 +1,442 @@
+@media only screen and (max-width: 767px) {
+  body p {
+    font-size: 1.2rem;
+  }
+  body ol li {
+    font-size: 1.2rem;
+  }
+}
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
- body {
-    height: 100vh;
-    background-image: url(https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-    background-size: cover;
-    background-repeat: repeat;
-
- }
- 
- header {
-    height: 15vh;
-    
- }
- header a.nav-link {
-  color: white; 
-  text-decoration: none !important; 
-}
- header nav button.btn-primary {
-  color: white !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
- button.navbar-toggler span.navbar-toggler-icon {
-  color: white !important;
+html {
+  scroll-behavior: smooth;
 }
 
-
- header span {
-  color: white;
-  text-decoration: none !important; 
+body {
+  height: 100vh;
 }
+
+a, a:hover {
+  margin: 0;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+a:hover {
+  color: violet !important;
+}
+
+p {
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+i {
+  font-size: 25px;
+}
+
+.botones-redes-flotantes {
+  bottom: 0px !important;
+  left: 1820px !important;
+}
+
+@media (max-width: 1400px) {
+  .botones-redes-flotantes {
+    bottom: 0px !important;
+    left: 1200px !important;
+  }
+}
+@media (max-width: 1200px) {
+  .botones-redes-flotantes {
+    bottom: 0px !important;
+    left: 950px !important;
+  }
+}
+@media (max-width: 992px) {
+  .botones-redes-flotantes {
+    bottom: 0px !important;
+    left: 700px !important;
+  }
+}
+@media (max-width: 767px) {
+  .botones-redes-flotantes {
+    bottom: 0px !important;
+    left: 620px !important;
+  }
+}
+@media (max-width: 576px) {
+  .botones-redes-flotantes {
+    bottom: 0px !important;
+    left: 450px !important;
+  }
+}
+@media (max-width: 400px) {
+  .botones-redes-flotantes {
+    bottom: 0px !important;
+    left: 300px !important;
+  }
+}
+@media (max-width: 767) {
+  .navbar-toggler-icon {
+    bottom: 0px !important;
+    right: 500px !important;
+  }
+}
+.col-1 {
+  width: 100%, 12;
+}
+
+.col-2 {
+  width: 100%, 24;
+}
+
+.col-3 {
+  width: 100%, 36;
+}
+
+.col-4 {
+  width: 100%, 48;
+}
+
+.col-5 {
+  width: 100%, 60;
+}
+
+.col-6 {
+  width: 100%, 72;
+}
+
+.col-7 {
+  width: 100%, 84;
+}
+
+.col-8 {
+  width: 100%, 96;
+}
+
+.col-9 {
+  width: 100%, 108;
+}
+
+.col-10 {
+  width: 100%, 120;
+}
+
+.col-11 {
+  width: 100%, 132;
+}
+
+.col-12 {
+  width: 100%, 144;
+}
+
+.title-10px {
+  font-size: 10px;
+}
+
+.title-20px {
+  font-size: 20px;
+}
+
+.title-30px {
+  font-size: 30px;
+}
+
+.btn-whatssap {
+  background-color: #25D366;
+}
+
+.btn-facebook {
+  background-color: #3a5795;
+}
+
+.btn-instagram {
+  background-color: #833AB4;
+}
+
+.btn-correo {
+  background-color: #C25E30;
+}
+
+.btn-home {
+  background-color: rgba(151, 151, 151, 0.973);
+}
+
+header nav span.ms-2 {
+  font-family: "Marck Script", cursive !important;
+  font-size: 30px;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif !important;
+}
+
+h2 {
+  font-family: "Athiti", sans-serif !important;
+}
+
+p {
+  font-size: 1.05rem;
+}
+
+ol li {
+  font-size: 1.05rem;
+}
+
+.text-success {
+  --bs-text-opacity: 1;
+  color: Blueviolet !important;
+}
+
+header {
+  height: 15vh;
+  background-color: black;
+}
+
+header a.nav-link {
+  color: White;
+  text-decoration: none !important;
+}
+
+header nav button.btn-primary {
+  color: White !important;
+}
+
+button.navbar-toggler span.navbar-toggler-icon {
+  color: White !important;
+}
+
+header nav ul li a:hover {
+  color: violet !important;
+}
+
+header nav ul li a::before, header nav ul li a:hover::before {
+  content: "";
+  height: 3px;
+  width: 0%;
+  background-color: transparent;
+  position: absolute;
+  left: 10;
+  bottom: 60px;
+  transition: 0.5s ease-out;
+}
+
+header nav ul li a:hover::before {
+  width: 5rem;
+  background-color: #b818e0;
+}
+
+header nav span {
+  color: White !important;
+}
+
+header nav span:hover {
+  color: violet !important;
+  text-decoration: none !important;
+}
+
+.nav-link:hover {
+  color: violet !important;
+}
+
+.dropdown-item:hover {
+  color: violet !important;
+}
+
 .nav-link {
   text-decoration: none !important;
 }
-.nav-link:hover {
-  background-color: none !important;
-}
+
 .navbar-nav .nav-item .nav-link.active {
-  color: #000000 !important;
+  color: black !important;
 }
+
 .navbar-nav .nav-item .nav-link {
   text-transform: uppercase;
-  color: #000000;
+  color: black;
   font-size: 0.9rem;
 }
-a.nav-link.active {
-  color: #000000;
- }
- .logoprincipal {
-  width: 25%; 
-  height: auto; 
-}
-  main {
-    height: 75vh;
-  }
-  .video-iframe {
-    border: none !important;
-    outline: none !important;
- }
- 
-  .acerca-de-mi {
-    height: 160vh;
-    
-  }
-  .terapias {
-    height: 550vh;
-  }
-  .main-contacto {
-    height: 70vh;
-  }
- .testimonios{
-   height: 80vh;
 
+a.nav-link.active {
+  color: black;
 }
- .cursos {
+
+header nav ul.menu-hamburguesa:hover {
+  color: violet !important;
+}
+
+.logoprincipal {
+  width: 25%;
+  height: auto;
+}
+
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 2.5em;
+  height: 2.8em;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+footer {
+  height: 15vh;
+  text-align: center;
+  background-color: White;
+}
+
+.index-sanacion {
+  height: 180vh;
+  background-color: White;
+  position: relative;
+}
+
+.acerca-de-mi {
+  height: 196vh;
+  background-color: black;
+}
+
+.flecha-arriba {
+  width: 100%;
+  height: 20vh;
+  background: no-repeat;
+  background-position: cover;
+}
+
+.gotopbtn {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: #252525;
+  bottom: 220px;
+  right: 50px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: White;
+  font-size: 22px;
+}
+
+.terapias {
+  height: 710vh;
+  background-color: black;
+}
+
+.testimonios {
+  height: 70vh;
+}
+
+.main-contacto {
+  height: 70vh;
+}
+
+.form-area {
+  padding-top: 5%;
+}
+
+.row.single-form {
+  box-shadow: 0 2px 20px -5 rgba(0, 0, 0, 0.5);
+  background: White;
+}
+
+.left, .left h2 {
+  background: blueviolet;
+  padding: 100px 93px;
+}
+
+.left h2 {
+  font-family: poppins;
+  color: #fff;
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+}
+
+.left h2 span {
+  font-weight: 600;
+}
+
+.right, .right i {
+  padding: 70px 100px;
+  position: relative;
+}
+
+.right i {
+  position: absolute;
+  font-size: 80px;
+  left: -27px;
+  top: 40%;
+  color: #fff;
+}
+
+.form-control {
+  border: 2px solid #000;
+}
+
+.right button {
+  border: none;
+  border-radius: 0;
+  background: #252525;
+  width: 180px;
+  color: #fff;
+  padding: 15px 0;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.right button:hover {
+  background: #252525;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .right i {
+    top: -52px;
+    transform: rotate(90deg);
+    left: 50%;
+  }
+}
+@media (min-width: 767px) {
+  .left, .left h2 {
+    padding: 90px 15px;
+    text-align: center;
+  }
+  .left h2 {
+    font-size: 30px;
+    top: 20px;
+  }
+  .right, .right i {
+    padding: 25px;
+  }
+  .right i {
+    top: -51px;
+    transform: rotate(90deg);
+    left: 45%;
+  }
+  .right button {
+    width: 150px;
+    padding: 12px 0;
+  }
+}
+@media (min-width: 766px) {
+  .texto-h2-main {
+    margin: auto;
+    text-align: center;
+  }
+}
+.cursos {
   height: 100vh;
 }
- .tienda {
+
+.tienda {
   height: 100vh;
 }
-  aside img {
-    bottom: 500px;
-  }
-  
-  footer {
-    height: 10vh;
-  }
+
+/*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,5 @@
+@each $item in $array {
+    .title-#{$item}{
+        font-size: $item;
+    }
+}

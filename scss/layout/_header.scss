@@ -1,0 +1,74 @@
+header {
+    height: 15vh;
+    background-color: $color-dark;
+ }
+ header a.nav-link {
+  color: $color-light; 
+  text-decoration: none !important; 
+}
+ header nav button.btn-primary {
+  color: $color-light !important;
+}
+
+ button.navbar-toggler span.navbar-toggler-icon {
+  color: $color-light !important;
+}
+
+header nav  ul li a:hover{
+  color: $color-hover !important;
+}
+header nav ul li a::before { 
+  content: "";
+  height: 3px;
+  width: 0%;
+  background-color: transparent; 
+  position: absolute;
+  left: 10;
+  bottom: 60px; 
+  transition: 0.5s ease-out;
+}
+
+header nav ul li a:hover::before { 
+  width: 5rem;
+  background-color: #b818e0; 
+}
+header nav span {
+  color: $color-light !important;
+}
+ header nav span:hover {
+  color: $color-hover !important;
+  text-decoration: none !important; 
+}
+.nav-link:hover{
+  color: $color-hover !important;
+}
+.dropdown-item:hover {
+  color: $color-hover!important;
+}
+.nav-link {
+  text-decoration: none !important;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+  color: $color-dark !important;
+}
+.navbar-nav .nav-item .nav-link {
+  text-transform: uppercase;
+  color: $color-dark;
+  font-size: 0.9rem;
+}
+
+
+a.nav-link.active {
+  color: $color-dark;
+ }
+ header nav ul.menu-hamburguesa:hover{
+  color: $color-hover !important;
+ }
+ .logoprincipal {
+  width: 25%; 
+  height: auto; 
+}
+.navbar-toggler-icon {
+  @include tamaño_icono_menu_hamburguesa;
+}
