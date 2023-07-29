@@ -64,22 +64,27 @@ i {
     left: 450px !important;
   }
 }
+
 @media (max-width: 400px) {
   .botones-redes-flotantes {
     bottom: 0px !important;
-    left:  350px !important;
-  }
-}
-@media (max-width: 400px) {
-  .botones-redes-flotantes {
-    bottom: 0px !important;
-    left:  350px !important;
+    left:  380px !important;
+
+    .redes-icono {
+      font-size: 30px;
+      
+    }
   }
 }
 @media (max-width: 412px) {
   .botones-redes-flotantes {
     bottom: 0px !important;
-    left:  350px !important;
+    left:  382px !important;
+    
+    .redes-icono {
+      font-size: 30px;
+      
+    }
   }
 }
 

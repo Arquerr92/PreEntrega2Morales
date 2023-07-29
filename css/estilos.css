@@ -1,9 +1,9 @@
 @media only screen and (max-width: 767px) {
   body p {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   body ol li {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 }
 
@@ -78,19 +78,19 @@ i {
 @media (max-width: 400px) {
   .botones-redes-flotantes {
     bottom: 0px !important;
-    left: 350px !important;
+    left: 380px !important;
   }
-}
-@media (max-width: 400px) {
-  .botones-redes-flotantes {
-    bottom: 0px !important;
-    left: 350px !important;
+  .botones-redes-flotantes .redes-icono {
+    font-size: 30px;
   }
 }
 @media (max-width: 412px) {
   .botones-redes-flotantes {
     bottom: 0px !important;
-    left: 350px !important;
+    left: 382px !important;
+  }
+  .botones-redes-flotantes .redes-icono {
+    font-size: 30px;
   }
 }
 @media (max-width: 400px) {
@@ -225,6 +225,10 @@ header nav button.btn-primary {
   color: White !important;
 }
 
+.navbar-toggler btn-primary {
+  bs-btn-border-color: #ffffff !important;
+}
+
 button.navbar-toggler span.navbar-toggler-icon {
   color: White !important;
 }
@@ -242,11 +246,6 @@ header nav ul li a::before, header nav ul li a:hover::before {
   left: 10;
   bottom: 60px;
   transition: 0.5s ease-out;
-}
-
-header nav ul li a:hover::before {
-  width: 5rem;
-  background-color: #b818e0;
 }
 
 header nav span {
@@ -289,7 +288,7 @@ header nav ul.menu-hamburguesa:hover {
 }
 
 .logoprincipal {
-  width: 25%;
+  width: 30%;
   height: auto;
 }
 
@@ -303,6 +302,14 @@ header nav ul.menu-hamburguesa:hover {
   background-size: 100%;
 }
 
+@media (max-width: 412px) {
+  .logoprincipal {
+    width: 200px;
+  }
+  .texto-logo {
+    display: none;
+  }
+}
 footer {
   text-align: center;
   background-color: White;
@@ -339,11 +346,63 @@ footer {
   font-size: 22px;
 }
 
+@media (max-width: 412px) {
+  .section-1-text {
+    text-align: justify !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    word-break: break-word;
+  }
+  .section-2-text {
+    text-align: justify !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    word-break: break-word;
+  }
+}
 .terapias {
   background-color: black;
   min-height: calc(100vh - (height_of_header + height_of_footer));
 }
 
+@media (max-width: 412px) {
+  .section-1-text-terapias {
+    text-align: justify !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    word-break: break-word;
+  }
+  .section-2-text-terapias {
+    text-align: justify !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    word-break: break-word;
+  }
+  .section-3-text-terapias {
+    text-align: justify !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    word-break: break-word;
+  }
+  .section-4-text-terapias {
+    text-align: justify !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    word-break: break-word;
+  }
+  .section-5-text-terapias {
+    text-align: justify !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    word-break: break-word;
+  }
+  .section-6-text-terapias {
+    text-align: justify !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    word-break: break-word;
+  }
+}
 .testimonios {
   min-height: calc(100vh - (height_of_header + height_of_footer));
 }

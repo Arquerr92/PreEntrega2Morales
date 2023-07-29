@@ -9,7 +9,9 @@ header {
  header nav button.btn-primary {
   color: $color-light !important;
 }
-
+.navbar-toggler btn-primary{
+  bs-btn-border-color: #ffffff  !important;
+}
  button.navbar-toggler span.navbar-toggler-icon {
   color: $color-light !important;
 }
@@ -28,10 +30,6 @@ header nav ul li a::before {
   transition: 0.5s ease-out;
 }
 
-header nav ul li a:hover::before { 
-  width: 5rem;
-  background-color: #b818e0; 
-}
 header nav span {
   color: $color-light !important;
 }
@@ -66,9 +64,19 @@ a.nav-link.active {
   color: $color-hover !important;
  }
  .logoprincipal {
-  width: 25%; 
+  width: 30%; 
   height: auto; 
 }
+
 .navbar-toggler-icon {
   @include tamaño_icono_menu_hamburguesa;
+}
+@media (max-width: 412px) { 
+  .logoprincipal {
+    width: 200px; 
+    
+  }
+  .texto-logo {
+    display: none; 
+  }
 }
