@@ -3,3 +3,50 @@
     background-color: $color-dark;
     min-height: calc(100vh - (height_of_header + height_of_footer));
   }
+
+  @media (max-width: 412px) {
+    .section-1-text-terapias {
+      text-align: justify!important;
+      max-width: 100% !important;
+      margin: 0 auto !important;
+      word-break: break-word;
+      
+      }
+      .section-2-text-terapias {
+        text-align: justify!important;
+        max-width: 100% !important;
+        margin: 0 auto !important;
+        word-break: break-word;
+        
+        }
+        .section-3-text-terapias {
+          text-align: justify!important;
+          max-width: 100% !important;
+          margin: 0 auto !important;
+          word-break: break-word;
+          
+          }
+          .section-4-text-terapias {
+            text-align: justify!important;
+            max-width: 100% !important;
+            margin: 0 auto !important;
+            word-break: break-word;
+            
+            } 
+            .section-5-text-terapias {
+              text-align: justify!important;
+              max-width: 100% !important;
+              margin: 0 auto !important;
+              word-break: break-word;
+              
+              } 
+              .section-6-text-terapias {
+                text-align: justify!important;
+                max-width: 100% !important;
+                margin: 0 auto !important;
+                word-break: break-word;
+                
+                }
+    
+  }
+  

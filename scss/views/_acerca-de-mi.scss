@@ -1,5 +1,4 @@
 .acerca-de-mi {
-    
     background-color: $color-dark;
     min-height: calc(100vh - (height_of_header + height_of_footer));
   }
@@ -19,3 +18,21 @@
     color: $color-light;
     font-size: 22px;
   }
+
+  
+@media (max-width: 412px) {
+  .section-1-text {
+    text-align: justify!important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    word-break: break-word;
+    
+    }
+    .section-2-text {
+    text-align: justify !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    word-break: break-word;
+    
+  }
+}
