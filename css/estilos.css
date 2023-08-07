@@ -48,46 +48,64 @@ i {
 @media (max-width: 1400px) {
   .botones-redes-flotantes {
     bottom: 0px !important;
-    left: 1200px !important;
+    left: 1350px !important;
   }
 }
 @media (max-width: 1200px) {
   .botones-redes-flotantes {
     bottom: 0px !important;
-    left: 950px !important;
+    left: 1150px !important;
   }
 }
 @media (max-width: 992px) {
   .botones-redes-flotantes {
     bottom: 0px !important;
-    left: 700px !important;
+    left: 965px !important;
+  }
+  .redes-icono {
+    font-size: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .botones-redes-flotantes {
+    bottom: 0px !important;
+    left: 734px !important;
+  }
+  .redes-icono {
+    font-size: 35px;
   }
 }
 @media (max-width: 767px) {
   .botones-redes-flotantes {
     bottom: 0px !important;
-    left: 620px !important;
+    left: 715px !important;
+  }
+  .redes-icono {
+    font-size: 35px;
   }
 }
 @media (max-width: 576px) {
   .botones-redes-flotantes {
     bottom: 0px !important;
-    left: 450px !important;
+    left: 550px !important;
   }
-}
-@media (max-width: 400px) {
-  .botones-redes-flotantes {
-    bottom: 0px !important;
-    left: 380px !important;
-  }
-  .botones-redes-flotantes .redes-icono {
+  .redes-icono {
     font-size: 30px;
   }
 }
 @media (max-width: 412px) {
   .botones-redes-flotantes {
     bottom: 0px !important;
-    left: 382px !important;
+    left: 386px !important;
+  }
+  .botones-redes-flotantes .redes-icono {
+    font-size: 30px;
+  }
+}
+@media (max-width: 400px) {
+  .botones-redes-flotantes {
+    bottom: 0px !important;
+    left: 374px !important;
   }
   .botones-redes-flotantes .redes-icono {
     font-size: 30px;
@@ -320,6 +338,32 @@ footer {
   background-color: White;
 }
 
+.img-index-section-1 {
+  width: 380px;
+  height: 620px;
+}
+
+.img-index-section-2 {
+  width: 380px;
+  height: 550px;
+}
+
+@media (max-width: 412px) {
+  .img-index-section-1 {
+    width: 350px;
+    height: 400px;
+  }
+  .img-index-section-2 {
+    width: 400px;
+    height: 400px;
+  }
+}
+@media (max-width: 400px) {
+  .img-index-section-2 {
+    width: 400px;
+    height: 400px;
+  }
+}
 .acerca-de-mi {
   background-color: black;
   min-height: calc(100vh - (height_of_header + height_of_footer));
@@ -405,6 +449,17 @@ footer {
 }
 .testimonios {
   min-height: calc(100vh - (height_of_header + height_of_footer));
+}
+
+.owl-theme .owl-nav [class*=owl-] {
+  color: #FFF;
+  font-size: 70px !important;
+  margin: 5px;
+  padding: 4px 7px;
+  background: #D6D6D6;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 10px;
 }
 
 .main-contacto {

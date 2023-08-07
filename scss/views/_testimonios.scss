@@ -2,3 +2,13 @@
     min-height: calc(100vh - (height_of_header + height_of_footer));
 }
 
+.owl-theme .owl-nav [class*=owl-] {
+    color: #FFF;
+    font-size: 70px !important;
+    margin: 5px;
+    padding: 4px 7px;
+    background: #D6D6D6;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 10px;
+}

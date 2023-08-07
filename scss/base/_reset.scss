@@ -37,49 +37,59 @@ i {
 @media (max-width: 1400px) {
   .botones-redes-flotantes {
     bottom: 0px !important;
-    left: 1200px !important;
+    left: 1350px !important;
   }
 }
 @media (max-width: 1200px) {
   .botones-redes-flotantes {
     bottom: 0px !important;
-    left: 950px !important;
+    left: 1150px !important;
   }
 }
 @media (max-width: 992px) {
   .botones-redes-flotantes {
     bottom: 0px !important;
-    left: 700px !important;
+    left: 965px !important;
+  }
+  .redes-icono {
+    font-size: 30px;
+    
+  }
+}
+@media (max-width: 768px) {
+  .botones-redes-flotantes {
+    bottom: 0px !important;
+    left: 734px !important;
+  }
+  .redes-icono {
+    font-size: 35px;
+    
   }
 }
 @media (max-width: 767px) {
   .botones-redes-flotantes {
     bottom: 0px !important;
-    left: 620px !important;
+    left: 715px !important;
+  }
+  .redes-icono {
+    font-size: 35px;
+    
   }
 }
 @media (max-width: 576px) {
   .botones-redes-flotantes {
     bottom: 0px !important;
-    left: 450px !important;
+    left: 550px !important;
   }
-}
-
-@media (max-width: 400px) {
-  .botones-redes-flotantes {
-    bottom: 0px !important;
-    left:  380px !important;
-
-    .redes-icono {
-      font-size: 30px;
-      
-    }
+  .redes-icono {
+    font-size: 30px;
+    
   }
 }
 @media (max-width: 412px) {
   .botones-redes-flotantes {
     bottom: 0px !important;
-    left:  382px !important;
+    left:  386px !important;
     
     .redes-icono {
       font-size: 30px;
@@ -87,6 +97,18 @@ i {
     }
   }
 }
+@media (max-width: 400px) {
+  .botones-redes-flotantes {
+    bottom: 0px !important;
+    left:  374px !important;
+
+    .redes-icono {
+      font-size: 30px;
+      
+    }
+  }
+}
+
 
 @media (max-width: 400px) {
   .flecha-arriba {
@@ -100,3 +122,4 @@ i {
     right: 500px !important;
 }
 }
+
