@@ -2,3 +2,28 @@
     min-height: calc(100vh - (height_of_header + height_of_footer));
     background-color: $color-light;
 }
+
+.img-index-section-1 {
+    width: 380px;
+    height: 620px;
+}
+.img-index-section-2 {
+    width: 380px;
+    height: 550px;
+}
+@media (max-width: 412px) {
+    .img-index-section-1 {
+    width: 350px;
+    height: 400px; 
+    }
+    .img-index-section-2 {
+        width: 400px;
+        height: 400px;
+        }
+    }
+@media (max-width: 400px) {
+    .img-index-section-2 {
+    width: 400px;
+    height: 400px;
+    }
+}
